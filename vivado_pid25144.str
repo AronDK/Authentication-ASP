@@ -1,0 +1,286 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 25144
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Apr 11 21:25:55 AEST 2024
+Time zone: 	Australian Eastern Standard Time (Australia/Sydney)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 2880x1800
+Screen resolution (DPI): 200
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=24
+Scale size: 48
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	gonin
+User home directory: C:/Users/gonin
+User working directory: C:/Users/gonin/Documents/COMP3211/FInal_Ass/Final_Assignment_1
+User country: 	AU
+User language: 	en
+User locale: 	en_AU
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/gonin/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/gonin/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/gonin/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/gonin/Documents/COMP3211/FInal_Ass/Final_Assignment_1/vivado.log
+Vivado journal file: 	C:/Users/gonin/Documents/COMP3211/FInal_Ass/Final_Assignment_1/vivado.jou
+Engine tmp dir: 	C:/Users/gonin/Documents/COMP3211/FInal_Ass/Final_Assignment_1/.Xil/Vivado-25144-AronLaptop
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.1
+XILINX_SDK: C:/Xilinx/Vitis/2021.1
+XILINX_VITIS: C:/Xilinx/Vitis/2021.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,222 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 93 MB (+94811kb) [00:00:08]
+// [Engine Memory]: 1,222 MB (+1130056kb) [00:00:08]
+// HOptionPane Warning: 'This project was created with a future version of Vivado. It will be opened in read-only mode for the protection of unrecognized data.  Please use 'File | Save Project As...' if you need to alter a copy of this project. The project may or may not open reliably with this version of Vivado. OK to proceed and open the project? (Future Project Version)'
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,222 MB. GUI used memory: 88 MB. Current time: 4/11/24, 9:25:56 PM AEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\gonin\Documents\COMP3211\FInal_Ass\Final_Assignment_1\Final_Assignment_1.xpr. Version: Vivado v2022.2 
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/gonin/Documents/COMP3211/FInal_Ass/Final_Assignment_1/Final_Assignment_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/gonin/Documents/COMP3211/FInal_Ass/Final_Assignment_1/Final_Assignment_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/dhruv/Documents/Final_Assignment_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 114 MB (+17492kb) [00:00:56]
+// [GUI Memory]: 120 MB (+281kb) [00:00:56]
+// [GUI Memory]: 128 MB (+1985kb) [00:00:56]
+// [GUI Memory]: 137 MB (+2314kb) [00:00:57]
+// WARNING: HEventQueue.dispatchEvent() is taking  2992 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1257.594 ; gain = 0.000 
+// Project name: Final_Assignment_1; location: C:/Users/gonin/Documents/COMP3211/FInal_Ass/Final_Assignment_1; part: xc7a100tftg256-3
+dismissDialog("Open Project"); // bz
+// [GUI Memory]: 147 MB (+3346kb) [00:01:02]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// Tcl Message: update_compile_order -fileset sources_1 
+// z (cs): Project is Read-Only: addNotify
+// I (cs): Invalid Top Modules: addNotify
+// a (cs): Critical Messages: addNotify
+selectRadioButton(PAResourceEtoH.FloatingTopDialog_SPECIFY_NEW_TOP_MODULES, "Specify new top modules for"); // a
+selectRadioButton(PAResourceEtoH.FloatingTopDialog_IGNORE_AND_CONTINUE_WITH_INVALID_TOP, "Ignore and continue with invalid top module"); // a
+selectRadioButton(PAResourceEtoH.FloatingTopDialog_SPECIFY_NEW_TOP_MODULES, "Specify new top modules for"); // a
+selectRadioButton(PAResourceEtoH.FloatingTopDialog_IGNORE_AND_CONTINUE_WITH_INVALID_TOP, "Ignore and continue with invalid top module"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Project 1-228] Project 'Final_Assignment_1' is read-only. To save your work, please use the 'File | Save Project As...' command first.  
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2021.1 (64-bit)
+# SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Current time: Thu Apr 11 21:26:59 AEST 2024
+# Process ID (PID): 25144
+# OS: Windows 10
+# User: gonin
+# Project: Final_Assignment_1
+# Part: xc7a100tftg256-3
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.cmd.CommandFailedException:  ERROR: [Project 1-228] Project 'Final_Assignment_1' is read-only. To save your work, please use the 'File | Save Project As...' command first.
+ (See C:/Users/gonin/Documents/COMP3211/FInal_Ass/Final_Assignment_1/vivado_pid25144.debug)
+*/
+// WARNING: HEventQueue.dispatchEvent() is taking  2502 ms.
+// Tcl Message: set_property source_mgmt_mode DisplayOnly [current_project] 
+// Tcl Message: ERROR: [Project 1-228] Project 'Final_Assignment_1' is read-only. To save your work, please use the 'File | Save Project As...' command first. 
+// HOptionPane Error: 'ERROR: [Project 1-228] Project 'Final_Assignment_1' is read-only. To save your work, please use the 'File | Save Project As...' command first. (Vivado v2021.1 (64-bit))'
+dismissDialog("Invalid Top Modules"); // I
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Project is Read-Only"); // z
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+// [GUI Memory]: 163 MB (+9326kb) [00:01:22]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tag_generator (tag_generator.v)]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tag_generator (tag_generator.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tag_generator (tag_generator.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1266 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tag_generator (tag_generator.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tag_generator (tag_generator.v), block_tag_gen[0].block_tag_gen : block_tagger (block_tagger.v)]", 4, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false, false, false, false, false, true); // D - Double Click
+// ag (cs): Unable to Open File: addNotify
+dismissDialog("Unable to Open File"); // ag
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false, false, false, false, false, true); // D - Double Click
+// ag (cs): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_CANCEL, "Cancel"); // a
+dismissDialog("Unable to Open File"); // ag
+// Elapsed time: 70 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tag_generator (tag_generator.v), block_tag_gen[2].block_tag_gen : block_tagger (block_tagger.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tag_generator (tag_generator.v), block_tag_gen[2].block_tag_gen : block_tagger (block_tagger.v)]", 6, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1190 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tag_generator (tag_generator.v), block_tag_gen[2].block_tag_gen : block_tagger (block_tagger.v)]", 6, false); // D
+// Elapsed time: 103 seconds
+selectCodeEditor("block_tagger.v", 430, 379); // E
+// Elapsed time: 128 seconds
+selectCodeEditor("block_tagger.v", 582, 321); // E
+selectCodeEditor("block_tagger.v", 703, 341); // E
+// Elapsed time: 19 seconds
+selectCodeEditor("block_tagger.v", 816, 341); // E
+selectCodeEditor("block_tagger.v", 569, 278); // E
+selectCodeEditor("block_tagger.v", 505, 267); // E
+selectCodeEditor("block_tagger.v", 484, 237); // E
+selectCodeEditor("block_tagger.v", 534, 266); // E
+selectCodeEditor("block_tagger.v", 503, 200); // E
+selectCodeEditor("block_tagger.v", 576, 189); // E
+selectCodeEditor("block_tagger.v", 552, 238); // E
+selectCodeEditor("block_tagger.v", 628, 283); // E
+selectCodeEditor("block_tagger.v", 454, 219); // E
+selectCodeEditor("block_tagger.v", 551, 298); // E
+// [GUI Memory]: 172 MB (+670kb) [00:07:19]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false, false, false, false, false, true); // D - Double Click
+// ag (cs): Unable to Open File: addNotify
+dismissDialog("Unable to Open File"); // ag
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tag_generator (tag_generator.v), block_tag_gen[0].block_tag_gen : block_tagger (block_tagger.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parity_unit.vhd]", 2, false); // D
+// Elapsed time: 30 seconds
+selectCodeEditor("block_tagger.v", 433, 487); // E
+selectCodeEditor("block_tagger.v", 458, 457); // E
+// Elapsed time: 42 seconds
+selectCodeEditor("block_tagger.v", 441, 303); // E
+selectCodeEditor("block_tagger.v", 519, 262); // E
+selectCodeEditor("block_tagger.v", 519, 262); // E
+selectCodeEditor("block_tagger.v", 519, 262, false, false, false, false, true); // E - Double Click
+selectCodeEditor("block_tagger.v", 587, 288); // E
+selectCodeEditor("block_tagger.v", 511, 234); // E
+selectCodeEditor("block_tagger.v", 474, 194); // E
+selectCodeEditor("block_tagger.v", 602, 232); // E
+selectCodeEditor("block_tagger.v", 538, 179); // E
+selectCodeEditor("block_tagger.v", 455, 196); // E
+selectCodeEditor("block_tagger.v", 362, 222); // E
+selectCodeEditor("block_tagger.v", 420, 264); // E
+selectCodeEditor("block_tagger.v", 545, 264); // E
+selectCodeEditor("block_tagger.v", 503, 228); // E
+selectCodeEditor("block_tagger.v", 474, 239); // E
+// Elapsed time: 100 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tag_generator.v", 1); // m
+// Elapsed time: 229 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tagger_generator_tb (tagger_generator_tb.v)]", 12, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tagger_generator_tb (tagger_generator_tb.v)]", 12, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1165 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tagger_generator_tb (tagger_generator_tb.v)]", 12, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tagger_generator_tb (tagger_generator_tb.v), DUT : tag_generator (tag_generator.v)]", 13, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tagger_generator_tb (tagger_generator_tb.v), DUT : tag_generator (tag_generator.v), block_tag_gen[2].block_tag_gen : block_tagger (block_tagger.v)]", 16, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tagger_generator_tb (tagger_generator_tb.v), DUT : tag_generator (tag_generator.v), block_tag_gen[2].block_tag_gen : block_tagger (block_tagger.v)]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tagger_generator_tb (tagger_generator_tb.v), DUT : tag_generator (tag_generator.v), block_tag_gen[2].block_tag_gen : block_tagger (block_tagger.v)]", 16, false); // D
+// Elapsed time: 53 seconds
+selectCodeEditor("tag_generator.v", 724, 478); // E
+selectCodeEditor("tag_generator.v", 526, 418); // E
+selectCodeEditor("tag_generator.v", 526, 418, false, false, false, false, true); // E - Double Click
+selectCodeEditor("tag_generator.v", 526, 418); // E
+selectCodeEditor("tag_generator.v", 520, 424); // E
+selectCodeEditor("tag_generator.v", 451, 457); // E
+selectCodeEditor("tag_generator.v", 451, 457, false, false, false, false, true); // E - Double Click
+selectCodeEditor("tag_generator.v", 451, 457); // E
+selectCodeEditor("tag_generator.v", 426, 322); // E
+selectCodeEditor("tag_generator.v", 426, 322, false, false, false, false, true); // E - Double Click
+selectCodeEditor("tag_generator.v", 426, 322); // E
+selectCodeEditor("tag_generator.v", 441, 347); // E
+selectCodeEditor("tag_generator.v", 292, 328); // E
+selectCodeEditor("tag_generator.v", 140, 346); // E
+selectCodeEditor("tag_generator.v", 134, 314); // E
+selectCodeEditor("tag_generator.v", 141, 245); // E
+selectCodeEditor("tag_generator.v", 138, 266); // E
+selectCodeEditor("tag_generator.v", 91, 286); // E
+selectCodeEditor("tag_generator.v", 304, 334); // E
+selectCodeEditor("tag_generator.v", 226, 292); // E
+// Elapsed time: 275 seconds
+selectCodeEditor("tag_generator.v", 1228, 641); // E
+selectCodeEditor("tag_generator.v", 940, 233); // E
+selectCodeEditor("tag_generator.v", 730, 131); // E
+// [GUI Memory]: 193 MB (+13256kb) [00:20:56]
+// [GUI Memory]: 209 MB (+6920kb) [00:20:58]

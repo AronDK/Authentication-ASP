@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../tagger.srcs/sources_1/new/block_tagger.v" \
+"../../../../tagger.srcs/sources_1/new/tag_generator.v" \
+"../../../../tagger.srcs/sim_1/new/tagger_generator_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
